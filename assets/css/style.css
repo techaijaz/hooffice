@@ -1,0 +1,134 @@
+.files input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 30px 0px 85px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+
+.files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+ }
+
+.files{ position:relative}
+.files:after {  pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.color input{ background-color:#f1f1f1;}
+.files:before {
+    position: absolute;
+    bottom: 20px;
+    left: -40px;
+    pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 25px;
+    content: " or drag it here. ";
+    display: block;
+    margin: 0 auto;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.add-new-icon{
+    width: 25px;
+    height: 25px;
+    background: cornflowerblue;
+    display: block;
+    border-radius: 50%;
+    line-height: 23px;
+    color: white;
+    margin: 7px 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.add-new-icon:hover{
+    text-decoration: none;
+    //color: white;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.formError .formErrorContent {
+    min-width: 150px;
+    background:#486EDB;
+    text-align: center;
+}
+
+.formError .formErrorArrow div {
+    background: #486EDB;
+}
+
+.modal:nth-of-type(even) {
+    z-index: 1052 !important;
+}
+.modal-backdrop.show:nth-of-type(even) {
+    z-index: 1051 !important;
+}
+
+table.dataTable td {
+  padding-left: 10px;
+}
+
+.select2-selection__rendered {
+    line-height: 38px !important;
+}
+.select2-container .select2-selection--single {
+    height: 38px !important;
+}
+.select2-selection__arrow {
+    height: 38px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    height: 35px !important;
+}
+
+.numeric-input {
+    text-align: right!important;
+}
+
+/* CSS used here will be applied after bootstrap.css */
+.modal-80p {
+    width:80%; /* 80% of page to provide space for labels */
+  }
